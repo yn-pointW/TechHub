@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" id="techhub-mark-b" style="display:block">
+  <defs>
+    <linearGradient id="th-grad-b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00d4aa"></stop>
+      <stop offset="100%" stop-color="#00a884"></stop>
+    </linearGradient>
+  </defs>
+  
+  <g stroke="url(#th-grad-b)" stroke-width="22" stroke-linecap="round" fill="none">
+    <line x1="300" y1="300" x2="300" y2="120"></line>
+    <line x1="300" y1="300" x2="456" y2="210"></line>
+    <line x1="300" y1="300" x2="456" y2="390"></line>
+    <line x1="300" y1="300" x2="300" y2="480"></line>
+    <line x1="300" y1="300" x2="144" y2="390"></line>
+    <line x1="300" y1="300" x2="144" y2="210"></line>
+  </g>
+  <g fill="url(#th-grad-b)">
+    <circle cx="300" cy="120" r="32"></circle>
+    <circle cx="456" cy="210" r="32"></circle>
+    <circle cx="456" cy="390" r="32"></circle>
+    <circle cx="300" cy="480" r="32"></circle>
+    <circle cx="144" cy="390" r="32"></circle>
+    <circle cx="144" cy="210" r="32"></circle>
+  </g>
+  
+  <circle cx="300" cy="300" r="56" fill="#0a0a0f" stroke="url(#th-grad-b)" stroke-width="14"></circle>
+  <circle cx="300" cy="300" r="22" fill="url(#th-grad-b)"></circle>
+</svg>

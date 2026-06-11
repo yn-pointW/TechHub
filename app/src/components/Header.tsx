@@ -70,7 +70,7 @@ export default function Header() {
 
             {/* Logo */}
             <Link to="/" className="flex-shrink-0 flex items-center gap-2">
-              <img src="../logo.svg" width="34" height="34" />
+              <img src="/logo.svg" width="34" height="34" />
               <span className="text-[22px] font-bold gradient-text tracking-tight">TechHub</span>
             </Link>
 
