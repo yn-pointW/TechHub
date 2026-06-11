@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechHub</title>
+    <link rel="icon"  type="image/x-icon" href="/logo.svg">
+  </head>
+  <body>
+    <div id="root">
+      <!-- SSR Fallback -->
+      <div style="min-height:100vh;background:#0a0a0f;color:#fff;font-family:system-ui,sans-serif;">
+        <div style="max-width:1400px;margin:0 auto;padding:0 24px;">
+          <!-- Header -->
+          <div style="display:flex;align-items:center;gap:16px;height:72px;border-bottom:1px solid rgba(255,255,255,0.06);">
+            <span style="font-size:22px;font-weight:700;background:linear-gradient(135deg,#00d4aa,#00a884);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">TechHub</span>
+            <div style="flex:1"></div>
+            <span style="color:#6b6b7b">Загрузка...</span>
+          </div>
+          <!-- Hero -->
+          <div style="padding:80px 0;text-align:center;">
+            <h1 style="font-size:48px;font-weight:700;margin:0 0 16px;background:linear-gradient(135deg,#00d4aa,#00a884);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">TechHub</h1>
+            <p style="color:#a0a0b0;font-size:18px;margin:0 0 32px;">Интернет-магазин электроники и гаджетов</p>
+            <div style="display:inline-block;padding:14px 32px;background:#00d4aa;color:#000;border-radius:10px;font-weight:600;">Загрузка приложения...</div>
+          </div>
+          <!-- Products grid skeleton -->
+          <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;padding:40px 0;">
+            <div style="background:#12121a;border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:16px;height:380px;"></div>
+            <div style="background:#12121a;border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:16px;height:380px;"></div>
+            <div style="background:#12121a;border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:16px;height:380px;"></div>
+            <div style="background:#12121a;border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:16px;height:380px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
