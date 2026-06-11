@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "dev:server": "node ../server/index.js",
-    "dev:all": "concurrently -n \"client,server\" -c \"cyan,green\" \"npm run dev\" \"npm run dev:server\"",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+      "dev": "vite",
+      "dev:server": "node ../server/index.js",
+      "dev:all": "concurrently -n \"client,server\" -c \"cyan,green\" \"npm run dev\" \"npm run dev:server\"",
+      "build": "tsc -b && vite build",
+      "start": "node ../server/index.js", 
+      "lint": "eslint .",
+      "preview": "vite preview"
+    },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
     "@hookform/resolvers": "^5.2.2",
