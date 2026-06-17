@@ -30,7 +30,7 @@ export default function Footer() {
               <span className="text-xl font-bold gradient-text">TechHub</span>
             </Link>
             <p className="text-tech-text-secondary text-sm leading-relaxed mb-4">
-              TechHub — magazinul tău de încredere pentru electronice și gadgeturi din Moldova, din 2022. Oferim doar tehnică originală la cele mai bune prețuri.
+              TechHub — magazinul tău de încredere pentru electronice și gadgeturi din Moldova, din 2026. Oferim doar tehnică originală la cele mai bune prețuri.
             </p>
             <div className="space-y-2">
               <a href="tel:+37369123456" className="flex items-center gap-2 text-tech-text-secondary hover:text-tech-accent-primary text-sm transition-colors">
@@ -102,7 +102,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-tech-border-subtle mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-tech-text-muted text-xs">© 2025 TechHub Moldova. Toate drepturile rezervate.</p>
+          <p className="text-tech-text-muted text-xs">© 2026 TechHub Moldova. Toate drepturile rezervate.</p>
           <div className="flex gap-4 text-tech-text-muted text-xs">
             <a href="#" className="hover:text-white transition-colors">Politica de confidențialitate</a>
             <span>|</span>
